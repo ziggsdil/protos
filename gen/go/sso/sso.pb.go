@@ -25,7 +25,7 @@ type RegisterRequest struct {
 	sizeCache     protoimpl.SizeCache
 	unknownFields protoimpl.UnknownFields
 
-	Email    string `protobuf:"bytes,1,opt,name=email,proto3" json:"email,omitempty"`       // email of the user to register.
+	Email    string `protobuf:"bytes,1,opt,name=email,proto3" json:"email,omitempty"`       // email of the user to register1.
 	Password string `protobuf:"bytes,2,opt,name=password,proto3" json:"password,omitempty"` // password of the user to register.
 }
 
