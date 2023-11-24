@@ -11,7 +11,7 @@ service Auth {
 }
 
 message RegisterRequest {
-  string email = 1; // email of the user to register.
+  string email = 1; // email of the user to register1.
   string password = 2; // password of the user to register.
 }
 
